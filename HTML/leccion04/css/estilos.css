@@ -1,0 +1,29 @@
+table{
+    width: 100%;
+
+}
+
+caption {
+    color: coral;
+    font-family: 'Trocchi', serif;
+    font-size: 45px;
+    line-height: 70px;
+}
+
+th{
+    color: white;
+    background-color: blue;
+}
+/*"Even" es para renglones impares y "odd" es para los pares*/
+tr:nth-child(even){
+    background-color: #f1faee;
+}
+tr:nth-child(odd){
+    background-color: aquamarine;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+

@@ -31,18 +31,18 @@ ul{
    list-style-type: none; 
    background-color: #ccd5ae;
    overflow: hidden;
-   margin-top: 0;
-   
+   margin-top: 0;  
 }
 
 li{
     float: left;
-    margin: auto;
+    
 }
 
 li a{
     display: block;
     padding: 20px;
+    
 }
 
 a{

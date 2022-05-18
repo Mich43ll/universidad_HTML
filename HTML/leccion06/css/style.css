@@ -1,0 +1,28 @@
+.titulo{
+    color: pink;
+
+}
+
+.marco{
+    width: 100%;
+    height: 200px;
+    border: 1px solid red;
+}
+
+.boton {
+    padding: 10px;
+    background-color: aqua;
+    color: black;
+    border: 2px solid black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.boton:hover{
+    background-color: white;
+    color: rgb(109, 108, 108);
+}
+
+.centrar{
+    text-align: center;
+}

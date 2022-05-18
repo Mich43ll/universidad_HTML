@@ -1,35 +1,35 @@
 body{
-    background-color: #fefae0;
+    background-color: #edf2f4;
     margin: 0;
     padding: 0;
 }
 
 table, th, td{
     margin: auto;
-    border: 1px solid #b87e03;
+    border: 1px solid #2b2d42;
     border-collapse: collapse;
     padding: 2.5px 5px;
 }
 th{
-    color: #fefae0;
-    background-color: #b87e03;
+    color: #edf2f4;
+    background-color: #2b2d42;
 }
 tr:nth-child(even){
-    background-color: #faedcd;
+    background-color: #b2b5cf;
 }
 
 
 
 h1{
     text-align: center;
-    color: #b87e03;
+    color: #2b2d42;
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
 }
 
 ul{
    list-style-type: none; 
-   background-color: #ccd5ae;
+   background-color: #2b2d42;
    overflow: hidden;
    margin-top: 0;  
 }
@@ -47,17 +47,17 @@ li a{
 
 a{
     text-decoration: none;
-    color: #fefae0;
+    color: #edf2f4;
     font-size: 30px;
     
 }
 
 li a:hover
 {
-    background-color: #faedcd;
-    color: #d4a373;
+    background-color: #edf2f4;
+    color: #d90429;
 }
 
 li a:active{
-    color: #b87e03;
+    color: #d90429;
 }

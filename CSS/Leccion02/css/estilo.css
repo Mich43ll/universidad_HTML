@@ -2,21 +2,42 @@ h1{
     text-align: center;
 }
 
-.rojo{
-    border: 10px solid firebrick;
-   /* background-color: firebrick;*/
+.punteado{
+    border-style: dotted;
 }
 
-.rosa{
-    border: 10px dashed hotpink;
-    /*background-color: hotpink;*/
+.discontinuo{
+    border-style: dashed;
 }
 
-.amarillo{
-    border: 10px double gold;
+.solida{
+    border-style: solid;
 }
 
-.azul{
-   border: 10px dotted turquoise;
+.doble{
+    border-style: double;
 }
 
+.surco {
+    border: 10px groove;
+}
+
+.cresta {
+    border: 10px ridge;
+}
+
+.recuadro {
+    border: 10px inset;
+}
+
+.inverso{
+    border: 10px outset;
+}
+
+.oculto{
+    border: 10px hidden;
+}
+
+.mixto {
+    border-style: dotted solid dashed double;
+}

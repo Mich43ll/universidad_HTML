@@ -4,18 +4,22 @@ h1{
 
 .punteado{
     border-style: dotted;
+    border-width: 10px 5px 3px 2px;
 }
 
 .discontinuo{
     border-style: dashed;
+    border-width: thin; /*Thin: estilo de borde mas delgado, medium: borde mediano, thick: borde mas grueso*/
 }
 
 .solida{
-    border-style: solid;
+    border: solid red;
+    border-width: 10px 5px 2px ;
 }
 
 .doble{
-    border-style: double;
+    border: double blueviolet;
+    border-width: 10px 5px;
 }
 
 .surco {

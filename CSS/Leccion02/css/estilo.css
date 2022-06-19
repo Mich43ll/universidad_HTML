@@ -24,6 +24,7 @@ h1{
 
 .surco {
     border: 10px groove;
+    border-width: 20px;
 }
 
 .cresta {
